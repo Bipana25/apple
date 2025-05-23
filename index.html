@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1> Dynamic by category</h1>
+    <div id="filter-buttons">
+    <button class="active" data-filter="all">All</button>
+    <button data-filter="fruit">Fruit</button>
+    <button data-filter="vegetable">vegetable</button>
+    <button data-filter="bakery">Bakery</button>
+    </div>
+    <br><br><br>
+
+
+    <div class="fruit" id="item-container">
+    <div class="card" data-category="fruit">
+        <img src="./apple.jpg" alt="" height="200" width="300">
+        <h3>Apple</h3>
+         <P>Rs.120/kg</P>
+    </div>
+    <br><br>
+
+    <div class="card" data-category="fruit">
+                <img src="./BANANA.jpg" alt="" height="200" width="300">
+        <h3>Banana</h3>
+         <P>Rs.90/kg</P>
+    </div>
+    <br><br>
+
+    <div class="card" data-category="vegetable">
+                <img src="./CARROT.jpg" alt="" height="200" width="300">
+        <h3>Carrot</h3>
+         <P>Rs.60/kg</P>
+    </div>
+    <br><br>
+
+    <div class="card" data-category="vegetable">
+                <img src="./BROCCOLI.jpg" alt="" height="200" width="300">
+        <h3>Broccoli</h3>
+         <P>Rs.150/kg</P>
+    </div>
+    <br><br>
+
+
+    <div class="card" data-category="fruit"> 
+                <img src="./STRAWBERRY.jpg" alt="" height="200" width="300">
+        <h3>Strawberry</h3>
+        <P>Rs.250/kg</P>
+    </div>
+    <br><br>
+    
+
+    <div class="card" data-category="vegetable">
+                <img src="./EGGPLANT.jpg" alt="" height="200" width="300">
+        <h3>Eggplant</h3>
+         <P>Rs.70/kg</P>
+    </div>
+    <br><br>
+
+    <div class="card" data-category="bakery">
+                <img src="./BREAD.jpg" alt="" height="200" width="300">
+        <h3>Bread</h3>
+         <P>Rs.50/kg</P>
+    </div>
+    <br><br>
+
+        <div class="card" data-category="bakery">
+                <img src="./CAKE.jpg" alt="" height="200" width="300">
+        <h3>Cake</h3>
+         <P>Rs.400/kg</P>
+    </div>
+
+    </div>
+    <script src="script.js"> </script>
+</body>
+</html>

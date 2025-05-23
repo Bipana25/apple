@@ -1,0 +1,19 @@
+
+ .card{
+    padding: 15px;
+    width: 300px;
+    border: 2px solid bisque;
+    box-shadow: 10px 20px 30px black;
+    
+ }
+ .fruit{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+ }
+ .active{
+   background-color:chartreuse;
+ }
+ body{
+   background-color: antiquewhite;
+ }
